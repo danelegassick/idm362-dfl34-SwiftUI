@@ -11,9 +11,6 @@
 		DD5830CE29B006F200C39DFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5830CD29B006F200C39DFA /* ContentView.swift */; };
 		DD5830D029B006F300C39DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5830CF29B006F300C39DFA /* Assets.xcassets */; };
 		DD5830D329B006F300C39DFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5830D229B006F300C39DFA /* Preview Assets.xcassets */; };
-		DD5830DD29B006F300C39DFA /* Note_TakingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5830DC29B006F300C39DFA /* Note_TakingTests.swift */; };
-		DD5830E729B006F300C39DFA /* Note_TakingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5830E629B006F300C39DFA /* Note_TakingUITests.swift */; };
-		DD5830E929B006F300C39DFA /* Note_TakingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5830E829B006F300C39DFA /* Note_TakingUITestsLaunchTests.swift */; };
 		DD5830FE29B038D200C39DFA /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5830FD29B038D200C39DFA /* TabBar.swift */; };
 		DD58310029B038E500C39DFA /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5830FF29B038E500C39DFA /* SettingsView.swift */; };
 		DD58310229B039A600C39DFA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58310129B039A600C39DFA /* HomeView.swift */; };
@@ -52,10 +49,7 @@
 		DD5830CF29B006F300C39DFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD5830D229B006F300C39DFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DD5830D829B006F300C39DFA /* Note TakingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Note TakingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD5830DC29B006F300C39DFA /* Note_TakingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_TakingTests.swift; sourceTree = "<group>"; };
 		DD5830E229B006F300C39DFA /* Note TakingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Note TakingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD5830E629B006F300C39DFA /* Note_TakingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_TakingUITests.swift; sourceTree = "<group>"; };
-		DD5830E829B006F300C39DFA /* Note_TakingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_TakingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DD5830FD29B038D200C39DFA /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		DD5830FF29B038E500C39DFA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		DD58310129B039A600C39DFA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -99,8 +93,6 @@
 			isa = PBXGroup;
 			children = (
 				DD5830CA29B006F200C39DFA /* Note Taking */,
-				DD5830DB29B006F300C39DFA /* Note TakingTests */,
-				DD5830E529B006F300C39DFA /* Note TakingUITests */,
 				DD5830C929B006F200C39DFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -141,23 +133,6 @@
 				DD5830D229B006F300C39DFA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		DD5830DB29B006F300C39DFA /* Note TakingTests */ = {
-			isa = PBXGroup;
-			children = (
-				DD5830DC29B006F300C39DFA /* Note_TakingTests.swift */,
-			);
-			path = "Note TakingTests";
-			sourceTree = "<group>";
-		};
-		DD5830E529B006F300C39DFA /* Note TakingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				DD5830E629B006F300C39DFA /* Note_TakingUITests.swift */,
-				DD5830E829B006F300C39DFA /* Note_TakingUITestsLaunchTests.swift */,
-			);
-			path = "Note TakingUITests";
 			sourceTree = "<group>";
 		};
 		DD58310329B042B400C39DFA /* Models */ = {
@@ -346,7 +321,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5830DD29B006F300C39DFA /* Note_TakingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,8 +328,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5830E929B006F300C39DFA /* Note_TakingUITestsLaunchTests.swift in Sources */,
-				DD5830E729B006F300C39DFA /* Note_TakingUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
