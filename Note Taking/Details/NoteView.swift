@@ -35,6 +35,7 @@ struct NoteView: View {
                 VStack(alignment: .leading, spacing: 30) {
                     if !notemodel.noteContent.isEmpty {
                         Text(notemodel.noteContent)
+                            .frame(width: 300, alignment: .center)
                     }
                 }
                 

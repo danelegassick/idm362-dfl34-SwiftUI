@@ -19,6 +19,7 @@ struct NoteCard: View {
                     .overlay(alignment: .bottom) {
                         Text(notemodel.title)
                             .font(.headline)
+                            .fontWeight(.bold)
                             .foregroundColor(.white)
                             .frame(maxWidth: 136)
                             .padding()
