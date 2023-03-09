@@ -23,6 +23,7 @@
 		DD58311329B05F3300C39DFA /* AddNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58311229B05F3300C39DFA /* AddNoteView.swift */; };
 		DD58311529B066EF00C39DFA /* NewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58311429B066EF00C39DFA /* NewNoteView.swift */; };
 		DD58311829B074ED00C39DFA /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58311729B074ED00C39DFA /* NotesViewModel.swift */; };
+		DD92898329BA2DEB00342322 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD92898129BA2DEB00342322 /* DataModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		DD58311229B05F3300C39DFA /* AddNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteView.swift; sourceTree = "<group>"; };
 		DD58311429B066EF00C39DFA /* NewNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteView.swift; sourceTree = "<group>"; };
 		DD58311729B074ED00C39DFA /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		DD92898229BA2DEB00342322 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				DD58310429B042E700C39DFA /* NoteModel.swift */,
+				DD92898129BA2DEB00342322 /* DataModel.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				DD58310529B042E700C39DFA /* NoteModel.swift in Sources */,
 				DD58310029B038E500C39DFA /* SettingsView.swift in Sources */,
 				DD58310A29B04D9600C39DFA /* NoteList.swift in Sources */,
+				DD92898329BA2DEB00342322 /* DataModel.xcdatamodeld in Sources */,
 				DD58311129B05BBC00C39DFA /* OrganizerView.swift in Sources */,
 				DD58311329B05F3300C39DFA /* AddNoteView.swift in Sources */,
 				DD5830CE29B006F200C39DFA /* ContentView.swift in Sources */,
@@ -631,6 +635,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD92898129BA2DEB00342322 /* DataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD92898229BA2DEB00342322 /* DataModel.xcdatamodel */,
+			);
+			currentVersion = DD92898229BA2DEB00342322 /* DataModel.xcdatamodel */;
+			path = DataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = DD5830C029B006F200C39DFA /* Project object */;
 }
