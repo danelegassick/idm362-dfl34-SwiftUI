@@ -11,6 +11,7 @@
 		DD51156A29C25D230043595D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51156929C25D230043595D /* TestView.swift */; };
 		DD51156C29C25F150043595D /* TestOrganizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51156B29C25F150043595D /* TestOrganizerView.swift */; };
 		DD51156E29C26C600043595D /* TestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51156D29C26C600043595D /* TestDetailView.swift */; };
+		DD51157129C27B230043595D /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DD51157029C27B230043595D /* ding.mp3 */; };
 		DD5830CC29B006F200C39DFA /* Note_TakingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5830CB29B006F200C39DFA /* Note_TakingApp.swift */; };
 		DD5830CE29B006F200C39DFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5830CD29B006F200C39DFA /* ContentView.swift */; };
 		DD5830D029B006F300C39DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5830CF29B006F300C39DFA /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		DD51156929C25D230043595D /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		DD51156B29C25F150043595D /* TestOrganizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOrganizerView.swift; sourceTree = "<group>"; };
 		DD51156D29C26C600043595D /* TestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailView.swift; sourceTree = "<group>"; };
+		DD51157029C27B230043595D /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
 		DD5830C829B006F200C39DFA /* Note Taking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Note Taking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5830CB29B006F200C39DFA /* Note_TakingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_TakingApp.swift; sourceTree = "<group>"; };
 		DD5830CD29B006F200C39DFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DD51156F29C27B170043595D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				DD51157029C27B230043595D /* ding.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		DD5830BF29B006F200C39DFA = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +147,7 @@
 				DD58310129B039A600C39DFA /* HomeView.swift */,
 				DDBD8B6429C2323700A8260C /* DataController.swift */,
 				DD5830FF29B038E500C39DFA /* SettingsView.swift */,
+				DD51156F29C27B170043595D /* Sounds */,
 				DD58311629B074BF00C39DFA /* ViewModels */,
 				DD58310B29B0526000C39DFA /* Details */,
 				DD58310629B045DA00C39DFA /* Components */,
@@ -306,6 +317,7 @@
 			files = (
 				DD5830D329B006F300C39DFA /* Preview Assets.xcassets in Resources */,
 				DD5830D029B006F300C39DFA /* Assets.xcassets in Resources */,
+				DD51157129C27B230043595D /* ding.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
