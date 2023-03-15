@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DD51156629C245F80043595D /* AddTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51156529C245F70043595D /* AddTestView.swift */; };
+		DD51156A29C25D230043595D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51156929C25D230043595D /* TestView.swift */; };
+		DD51156C29C25F150043595D /* TestOrganizerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51156B29C25F150043595D /* TestOrganizerView.swift */; };
+		DD51156E29C26C600043595D /* TestDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD51156D29C26C600043595D /* TestDetailView.swift */; };
 		DD5830CC29B006F200C39DFA /* Note_TakingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5830CB29B006F200C39DFA /* Note_TakingApp.swift */; };
 		DD5830CE29B006F200C39DFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD5830CD29B006F200C39DFA /* ContentView.swift */; };
 		DD5830D029B006F300C39DFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5830CF29B006F300C39DFA /* Assets.xcassets */; };
@@ -24,7 +28,6 @@
 		DD58311529B066EF00C39DFA /* NewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58311429B066EF00C39DFA /* NewNoteView.swift */; };
 		DD58311829B074ED00C39DFA /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58311729B074ED00C39DFA /* NotesViewModel.swift */; };
 		DD92898329BA2DEB00342322 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD92898129BA2DEB00342322 /* DataModel.xcdatamodeld */; };
-		DD9289A429BA2F5C00342322 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9289A329BA2F5C00342322 /* Persistence.swift */; };
 		DD9289A729BA338600342322 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9289A629BA338600342322 /* CoreData.framework */; };
 		DDBD8B6529C2323700A8260C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8B6429C2323700A8260C /* DataController.swift */; };
 /* End PBXBuildFile section */
@@ -47,6 +50,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DD51156529C245F70043595D /* AddTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTestView.swift; sourceTree = "<group>"; };
+		DD51156929C25D230043595D /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		DD51156B29C25F150043595D /* TestOrganizerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestOrganizerView.swift; sourceTree = "<group>"; };
+		DD51156D29C26C600043595D /* TestDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDetailView.swift; sourceTree = "<group>"; };
 		DD5830C829B006F200C39DFA /* Note Taking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Note Taking.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5830CB29B006F200C39DFA /* Note_TakingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_TakingApp.swift; sourceTree = "<group>"; };
 		DD5830CD29B006F200C39DFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -67,7 +74,6 @@
 		DD58311429B066EF00C39DFA /* NewNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteView.swift; sourceTree = "<group>"; };
 		DD58311729B074ED00C39DFA /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
 		DD92898229BA2DEB00342322 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		DD9289A329BA2F5C00342322 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		DD9289A629BA338600342322 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		DDBD8B6429C2323700A8260C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,8 +130,10 @@
 				DD5830CD29B006F200C39DFA /* ContentView.swift */,
 				DD58310E29B058D600C39DFA /* OrganizersView.swift */,
 				DD58311429B066EF00C39DFA /* NewNoteView.swift */,
-				DD9289A329BA2F5C00342322 /* Persistence.swift */,
 				DD5830FD29B038D200C39DFA /* TabBar.swift */,
+				DD51156529C245F70043595D /* AddTestView.swift */,
+				DD51156D29C26C600043595D /* TestDetailView.swift */,
+				DD51156B29C25F150043595D /* TestOrganizerView.swift */,
 				DD58310129B039A600C39DFA /* HomeView.swift */,
 				DDBD8B6429C2323700A8260C /* DataController.swift */,
 				DD5830FF29B038E500C39DFA /* SettingsView.swift */,
@@ -169,6 +177,7 @@
 			isa = PBXGroup;
 			children = (
 				DD58310C29B0528200C39DFA /* NoteView.swift */,
+				DD51156929C25D230043595D /* TestView.swift */,
 				DD58311229B05F3300C39DFA /* AddNoteView.swift */,
 				DD58311029B05BBC00C39DFA /* OrganizerView.swift */,
 			);
@@ -322,11 +331,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD58311829B074ED00C39DFA /* NotesViewModel.swift in Sources */,
-				DD9289A429BA2F5C00342322 /* Persistence.swift in Sources */,
+				DD51156E29C26C600043595D /* TestDetailView.swift in Sources */,
 				DD58310F29B058D600C39DFA /* OrganizersView.swift in Sources */,
 				DD5830FE29B038D200C39DFA /* TabBar.swift in Sources */,
 				DD58310529B042E700C39DFA /* NoteModel.swift in Sources */,
 				DD58310029B038E500C39DFA /* SettingsView.swift in Sources */,
+				DD51156629C245F80043595D /* AddTestView.swift in Sources */,
+				DD51156A29C25D230043595D /* TestView.swift in Sources */,
+				DD51156C29C25F150043595D /* TestOrganizerView.swift in Sources */,
 				DD58310A29B04D9600C39DFA /* NoteList.swift in Sources */,
 				DDBD8B6529C2323700A8260C /* DataController.swift in Sources */,
 				DD92898329BA2DEB00342322 /* DataModel.xcdatamodeld in Sources */,

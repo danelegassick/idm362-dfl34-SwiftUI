@@ -22,7 +22,7 @@ struct TabBar: View{
                 .tabItem {
                     Label("Organizers", systemImage: "square.fill.text.grid.1x2")
                 }
-            NewNoteView()
+            AddTestView()
                 .tabItem {
                     Label("New Note", systemImage: "plus")
                 }
