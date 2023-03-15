@@ -24,6 +24,9 @@
 		DD58311529B066EF00C39DFA /* NewNoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58311429B066EF00C39DFA /* NewNoteView.swift */; };
 		DD58311829B074ED00C39DFA /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD58311729B074ED00C39DFA /* NotesViewModel.swift */; };
 		DD92898329BA2DEB00342322 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD92898129BA2DEB00342322 /* DataModel.xcdatamodeld */; };
+		DD9289A429BA2F5C00342322 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD9289A329BA2F5C00342322 /* Persistence.swift */; };
+		DD9289A729BA338600342322 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9289A629BA338600342322 /* CoreData.framework */; };
+		DDBD8B6529C2323700A8260C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD8B6429C2323700A8260C /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,9 @@
 		DD58311429B066EF00C39DFA /* NewNoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNoteView.swift; sourceTree = "<group>"; };
 		DD58311729B074ED00C39DFA /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
 		DD92898229BA2DEB00342322 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		DD9289A329BA2F5C00342322 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		DD9289A629BA338600342322 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DDBD8B6429C2323700A8260C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD9289A729BA338600342322 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +103,7 @@
 			children = (
 				DD5830CA29B006F200C39DFA /* Note Taking */,
 				DD5830C929B006F200C39DFA /* Products */,
+				DD9289A529BA338600342322 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,8 +124,10 @@
 				DD5830CD29B006F200C39DFA /* ContentView.swift */,
 				DD58310E29B058D600C39DFA /* OrganizersView.swift */,
 				DD58311429B066EF00C39DFA /* NewNoteView.swift */,
+				DD9289A329BA2F5C00342322 /* Persistence.swift */,
 				DD5830FD29B038D200C39DFA /* TabBar.swift */,
 				DD58310129B039A600C39DFA /* HomeView.swift */,
+				DDBD8B6429C2323700A8260C /* DataController.swift */,
 				DD5830FF29B038E500C39DFA /* SettingsView.swift */,
 				DD58311629B074BF00C39DFA /* ViewModels */,
 				DD58310B29B0526000C39DFA /* Details */,
@@ -171,6 +181,14 @@
 				DD58311729B074ED00C39DFA /* NotesViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		DD9289A529BA338600342322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD9289A629BA338600342322 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,11 +322,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD58311829B074ED00C39DFA /* NotesViewModel.swift in Sources */,
+				DD9289A429BA2F5C00342322 /* Persistence.swift in Sources */,
 				DD58310F29B058D600C39DFA /* OrganizersView.swift in Sources */,
 				DD5830FE29B038D200C39DFA /* TabBar.swift in Sources */,
 				DD58310529B042E700C39DFA /* NoteModel.swift in Sources */,
 				DD58310029B038E500C39DFA /* SettingsView.swift in Sources */,
 				DD58310A29B04D9600C39DFA /* NoteList.swift in Sources */,
+				DDBD8B6529C2323700A8260C /* DataController.swift in Sources */,
 				DD92898329BA2DEB00342322 /* DataModel.xcdatamodeld in Sources */,
 				DD58311129B05BBC00C39DFA /* OrganizerView.swift in Sources */,
 				DD58311329B05F3300C39DFA /* AddNoteView.swift in Sources */,
