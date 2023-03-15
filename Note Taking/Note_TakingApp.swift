@@ -13,6 +13,10 @@ struct Note_TakingApp: App {
 
     @StateObject var notesViewModel = NotesViewModel()
     @StateObject var dataController = DataController()
+    
+    @AppStorage("isDarkMode") private var isDarkMode = false
+    @AppStorage("selectedLanguage") private var selectedLanguage = "English"
+
 
     
     
@@ -21,7 +25,9 @@ struct Note_TakingApp: App {
             ContentView()
                 .environmentObject(notesViewModel)
                 .environment(\.managedObjectContext, dataController.container.viewContext)
-            
+                .preferredColorScheme(isDarkMode ? .dark : .light)
+                
+
         }
     }
 }

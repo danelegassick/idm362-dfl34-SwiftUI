@@ -18,14 +18,6 @@ struct TabBar: View{
                 .tabItem {
                     Label("Settings", systemImage: "gear")
                 }
-            OrganizersView()
-                .tabItem {
-                    Label("Organizers", systemImage: "square.fill.text.grid.1x2")
-                }
-            AddTestView()
-                .tabItem {
-                    Label("New Note", systemImage: "plus")
-                }
         }
     }
 }
