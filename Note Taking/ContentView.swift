@@ -9,6 +9,7 @@ import SwiftUI
 struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
     @FetchRequest(sortDescriptors: [
+        SortDescriptor(\.dateAdded),
         SortDescriptor(\.organizer, order: .reverse)
     ]) var notes: FetchedResults<Note>
     
@@ -33,9 +34,13 @@ struct ContentView: View {
                         }
                     }
                 }
+                .onDelete(perform: deleteNotes)
             }
                 .navigationTitle("Notate")
                 .toolbar {
+                    ToolbarItem(placement: .navigationBarLeading) {
+                        EditButton()
+                    }
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button {
                             showingAddScreen.toggle()
@@ -48,8 +53,18 @@ struct ContentView: View {
                     AddTestView()
                 }
         }
+        
 // ++++++++++ This is the current design beneath ++++++++++++++++++++++++
 //        TabBar()
+    }
+    
+    func deleteNotes(at offsets: IndexSet) {
+        for offset in offsets {
+            let note = notes[offset]
+            moc.delete(note)
+        }
+        
+        try? moc.save()
     }
 }
     
